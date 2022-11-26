@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 70%;
+  height: 100vh;
+  background-color: black;
+  margin: 40px auto;
+  
+}
+
+.primeralinea {
+  height: 50px;
+  padding: 20px;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: gray;
+  font-size: 15px;
+  
+}
+.segundaprincipal {
+  display: flex;
+  background-color: lightskyblue;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  
+}
+.boton{
+  border: 3px solid black;
+  padding: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.segundalista {
+  background-color:lightskyblue}
+
+ul{
+display: flex;
+justify-content: right;
+color: rgb(107, 104, 104);
+font-weight: bold;
+}
+
+.cuerpo {
+  background-color: rgba(174, 195, 201, 0.372);
+  background-image: url("img/mar.jpg");
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+li {
+  list-style: none;
+  margin: 15px;
+}
+.pip,.th,.by{
+  color: lightcyan;
+
+ 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+span{
+  color: black;
+}
+
+.by{
+  margin: 10px;
+}
+.by,span{
+  font-size: 30px;
+}
+.pip,.th{
+  font-size: 40px;
+}
